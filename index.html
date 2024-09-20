@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            
+            <p>Em uma antiga biblioteca, você encontra um pergaminho que menciona os quatro reinos perdidos: Fogo, Terra, Ar e Água. Cada reino guarda um cristal, necessário para evitar a destruição do mundo. Sua primeira pista o leva a escolher entre dois destinos.
+
+            </p>
+            <button class="btn-proximo" data-proximo="1">Viajar para o Reino de Fogo</button>
+            <button class="btn-proximo" data-proximo="2">Viajar para o Reino de Terra</button>
+        </div>
+        <div class="passo" id="passo-1">
+    
+            <p>Você chega ao Reino de Fogo, uma terra vulcânica. O cristal do fogo está escondido nas profundezas de um vulcão ativo. Os habitantes locais o avisam sobre os perigos, mas dizem que o cristal deve ser recuperado antes que o vulcão entre em erupção.
+
+            </p>
+            <button class="btn-proximo" data-proximo="3">Descer até as profundezas do vulcão</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+        
+            <p>No Reino de Terra, você se depara com florestas densas e montanhas imponentes. Um ancião revela que o cristal de Terra está escondido em uma caverna, protegida por antigas criaturas que guardam o equilíbrio da natureza.</p>
+            <button class="btn-proximo" data-proximo="5">Entrar na caverna para procurar o cristal</button>
+            <button class="btn-proximo" data-proximo="6">Explorar outras áreas do reino</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Nas profundezas do vulcão, você encontra o cristal de Fogo brilhando intensamente. No entanto, o vulcão começa a entrar em erupção. Você deve escapar rapidamente antes de ser consumido pela lava.</p>
+            <button class="btn-proximo" data-proximo="7">Fugir do vulcão com o cristal</button>
+            
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>A missão parece perigosa demais, e você decide voltar para casa. No entanto, enquanto reflete sobre sua escolha, o mundo começa a mostrar sinais de que algo terrível está prestes a acontecer. Você sempre se perguntará o que teria acontecido se tivesse continuado.
+
+            </p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Dentro da caverna, você enfrenta monstros antigos que protegem o cristal de Terra. Após uma batalha difícil, você finalmente encontra o cristal escondido em uma câmara secreta. No entanto, a caverna começa a desmoronar.</p>
+            <button class="btn-proximo" data-proximo="7">Escapar da caverna com o cristal</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você decide explorar outras partes do Reino de Terra antes de procurar o cristal. Ao fazer isso, você encontra um rio misterioso que dizem levar a uma área sagrada. Talvez o cristal esteja lá.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar para explorar a caverna</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Depois de obter os cristais de Fogo e Terra, a próxima pista o leva ao Reino de Ar, uma terra de montanhas flutuantes e ventos poderosos. Os monges que habitam o reino avisam que o cristal de Ar está no topo de uma montanha perigosa.</p>
+            <button class="btn-proximo" data-proximo="9">Escalar a montanha para encontrar o cristal</button>
+            <button class="btn-proximo" data-proximo="10">Procurar uma rota mais segura para o topo</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Ao seguir o rio no Reino de Terra, você chega a uma clareira secreta onde um monumento antigo o guia diretamente ao cristal. Com essa última pista, você finalmente encontra o cristal de Terra sem enfrentar mais perigos.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o próximo destino</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Após uma escalada árdua, você finalmente alcança o topo da montanha e encontra o cristal de Ar. Ele está flutuando no meio de um altar antigo, protegido por ventos violentos. Você consegue pegá-lo, mas os monges o alertam que o Reino de Água será o mais desafiador.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir para o Reino de Água</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Nas profundezas do oceano, o cristal de Água está escondido em um templo submerso. Você mergulha até o local, mas percebe que o templo está em ruínas e prestes a desmoronar. O tempo é curto para pegar o cristal.</p>
+            <button class="btn-proximo" data-proximo="12">Resgatar o cristal e escapar do templo antes que ele desabe</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="Junçao dos artefatos">
+            <p>Com todos os quatro cristais reunidos, você volta ao local onde o artefato mágico o aguarda. Ao unir os cristais, o poder combinado deles cria uma energia que interrompe o avanço da destruição iminente no mundo. No entanto, o uso desse poder pode ter consequências.</p>
+            <button class="btn-proximo" data-proximo="12">Ativar o artefato e salvar o mundo</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Ao ativar o artefato, você sente uma onda de energia percorrer o planeta, estabilizando o clima e detendo a destruição. O mundo está salvo graças à sua coragem e determinação. Agora, os reinos o veem como o herói que restaurou o equilíbrio. Sua jornada chega ao fim, mas a lenda da sua coragem viverá para sempre.</p>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
